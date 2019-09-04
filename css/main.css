@@ -137,3 +137,38 @@ body {
     line-height: 1;
     margin-top: 0;
 }
+.intro-slide__btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 3px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+.intro-slide__btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+.intro-nav {
+    display: flex;
+    justify-content: space-between;
+}
+/* Слайдовая навигация */
+.intro-nav__btn {
+    width: 23%;
+    padding: 20px 0;
+    position: relative;
+    border-top: 3px solid #fff;
+    opacity: .7;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.bold {
+    font-size: 24px;
+    font-weight: 700;
+}
