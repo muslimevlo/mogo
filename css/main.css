@@ -305,3 +305,29 @@ body {
 .services__border {
     border-bottom: 1px solid #e5e5e5;
 }
+/* devices */
+.devices{
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.section--device {
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    background: url(../images/devices-bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+.devices__item {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.devices__item--iphone {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
+}
