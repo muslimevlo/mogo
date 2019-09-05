@@ -273,3 +273,35 @@ body {
     font-size: 14px;
     text-transform: uppercase;
 }
+
+/* services */
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-card {
+    width: 33.33333%;
+    padding: 0 35px 40px 85px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.services-card__icon {
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+}
+.card__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+.services-card__text {
+    font-size: 17px;
+    color: #999;
+    font-family: 'Montserrat', sans-serif;
+}
+.services__border {
+    border-bottom: 1px solid #e5e5e5;
+}
