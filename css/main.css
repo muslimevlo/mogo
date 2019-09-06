@@ -422,3 +422,18 @@ body {
     color: #333;
     text-transform: uppercase;
 }
+/* TEam */
+.card {
+    margin: 80px -15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card__item {
+    width: 33.33333%;
+    padding: 0 15px;
+}
+.card__inner {
+    position: relative;
+    background-color: #95e1d3;
+}
