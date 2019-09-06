@@ -331,3 +331,18 @@ body {
     right: 0;
     z-index: 1;
 }
+/* wedo */
+.wedo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.wedo__item {
+    width: 50%;
+    padding: 0 15px;
+}
+.wedo__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
