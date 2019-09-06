@@ -160,6 +160,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.section.section--intro{
+    padding: 0;
+  }
 /* Слайдовая навигация */
 .intro-nav__btn {
     width: 23%;
@@ -285,6 +288,10 @@ body {
     padding: 0 35px 40px 85px;
     position: relative;
     margin-bottom: 40px;
+}
+.services-kart{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .services-card__icon {
     position: absolute;
