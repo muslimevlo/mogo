@@ -22,7 +22,7 @@ body {
     width: 100%;
 }
 .section {
-    margin: 40px 0;
+    padding: 110px 0 120px
 }
 .h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -250,6 +250,7 @@ body {
 }
 .section--statistics{
     background-color: #95e1d3;
+    padding: 0;
 }
 .statistics__cell:last-child {
     border-right: 1px solid #b5eae0;
