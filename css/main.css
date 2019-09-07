@@ -422,6 +422,13 @@ body {
     color: #333;
     text-transform: uppercase;
 }
+/* slider */
+.section--reviews {
+    background-color: #f8f8f8;
+}
+.reviews {
+    position: relative;
+}
 /* TEam */
 .card {
     margin: 80px -15px 0;
