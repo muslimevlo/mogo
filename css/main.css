@@ -73,13 +73,11 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    /* height: 100vh; */
-    min-height: 820px;
     position: relative;
-
     background: url("../images/intro.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    padding-top: 200px;
 }
 .nav {
     font-size: 14px;
@@ -130,6 +128,9 @@ body {
     text-align: center;
     color: #ffffff;
 }
+.intro-slide {
+    margin-bottom: 157px;
+}
 .intro-slide__overtitle{
     margin-bottom: 20px;
     font-family: 'Kaushan Script', cursive;
@@ -169,17 +170,33 @@ body {
   }
 /* Слайдовая навигация */
 .intro-nav__btn {
+    cursor: pointer;
     width: 23%;
     padding: 20px 0;
     position: relative;
+    border: 0;
     border-top: 3px solid #fff;
     opacity: .7;
     font-size: 18px;
     color: #fff;
     text-transform: uppercase;
+    transition: all .2s linear;
     background: none;
+    text-align: left;
+}
+.intro-nav__btn:hover {
+    opacity: 1;
+}
+.intro-nav__btn.active::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30%;
+    background-color: #f38181;
+    top: -3px;
 }
 .bold {
+    margin-right: 1rem;
     font-size: 24px;
     font-weight: 700;
 }
@@ -575,6 +592,42 @@ body {
     color: #999;
 }
 
+/* review slider start */
+.slick-slider{
+    position: relative;
+    min-height: 210px;
+    padding-left: 255px;
+
+}
+.slider-nav-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.slider-prev-btn {
+    left: -20px;
+}
+.slider-next-btn{
+    right: -20px;
+}
+.review-slide__photo {
+    display: block;
+}
+.review-slide__text{
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999;
+}
+.review-slide__author {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333;
+}
+/* review slider end */
+
 /* logos */
 .section--logos {
     background-color: #f8f8f8;
@@ -593,4 +646,19 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
+}
+/* worcs */
+.works {
+    display: flex;
+    flex-wrap: wrap;
+}
+.works__col {
+    width: 25%;
+    flex: 1 1 0;
+}
+.works__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity .2s linear;
 }
