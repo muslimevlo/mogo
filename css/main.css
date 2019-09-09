@@ -906,6 +906,7 @@ body {
 }
 .blog__header{
     position: relative;
+    margin-bottom: 15px;
 }
 .blog__date{
     position: absolute;
@@ -932,6 +933,12 @@ body {
     font-size: 14px;
     color: #333;
     text-transform: uppercase;
+}
+.blog__title a{
+    text-decoration: none;
+}
+.blog__title a:hover {
+    text-decoration: underline;
 }
 .blog__text {
     font-size: 15px;
